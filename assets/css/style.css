@@ -1,0 +1,178 @@
+body 
+{
+  font-family: 'Poppins';
+}
+p 
+{
+  opacity: 0.6;
+}
+.bg-mediumaquamarine
+{
+  background-color:mediumaquamarine;
+}
+.text-mediumaquamarine
+{
+  color: mediumaquamarine;
+}
+/*Download Cv button background animation */
+@keyframes particles {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 500% 0;
+  }
+}
+.particle-background {
+  background: linear-gradient(90deg, mediumaquamarine, black, mediumaquamarine);
+  background-size: 500% 100%;
+  animation: particles 10s linear infinite;
+}
+/* Hire Me Button Animations  */
+@keyframes neonGlow {
+  0%,
+  100% {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #0ff, 0 0 30px #0ff,
+    0 0 40px #0ff, 0 0 50px #0ff, 0 0 75px #0ff;
+  }
+  50% {
+    text-shadow: none;
+  }
+}
+/* Apply neon glow animation on an element */
+.neon-glow-element {
+  animation: neonGlow 1.5s infinite;
+}
+/*Animated Profession on Home page*/
+.animation {
+  height:50px;
+  overflow:hidden;
+  margin-left: 1rem;
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.animation > div > div {
+  padding: 0.25rem 0.75rem;
+  height:2.81rem;
+
+  margin-bottom: 2.81rem;
+  display:inline-block;
+}
+
+.animation div:first-child {
+  animation: text-animation 8s infinite;
+}
+@keyframes text-animation {
+  0% {
+    margin-top: 0;
+  }
+  10% {
+    margin-top: 0;
+  }
+  20%
+  {
+    margin-top: -5.62rem;
+  }
+  30% {
+    margin-top: -5.62rem;
+  }
+  40% {
+    margin-top: -11.24rem;
+  }
+  60% 
+  {
+    margin-top: -11.24rem;
+  }
+  70%
+  {
+    margin-top: -5.62rem;
+  }
+  80% 
+  {
+    margin-top: -5.62rem;
+  }
+  90% {
+    margin-top: 0;
+  }
+  100% 
+  {
+    margin-top: 0;
+  }
+}
+/*About Us Page Crousel Animations*/
+.carousel-indicators {
+  position: unset;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+  padding: 1em;
+  color: white !important;
+}
+.carousel-indicators .about {
+  text-indent: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  color: white;
+  background-color: transparent;
+  border-top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.carousel-indicators .about .active {
+  color: mediumaquamarine;
+}
+.carousel {
+  background-color: beige;
+}
+.carousel-inner img {
+  max-height: 400px;
+  max-width: 100%;
+  padding: 1em;
+  margin: auto;
+}
+/*Contact Us*/
+input, textarea
+{
+  outline: none;
+  color: white;
+}
+input::placeholder,textarea::placeholder {
+ color: white; !important;
+ opacity: 0.7;
+ }
+/*Some Media Queries*/
+@media screen and (min-width: 576px) {
+  .carousel {
+    padding: 2em;
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  body
+  {
+    overflow: hidden;
+  }
+  #about,#skills,#services,#contact {
+    position: absolute !important;
+    display: none;
+  }
+
+}
+@media screen and (max-width: 720px) {
+  body
+  {
+    overflow: scroll;
+  }
+  .btn-close{
+    display: none;
+  }
+  .first,.second,.third
+  {
+    width: 100% !important;
+  }
+}

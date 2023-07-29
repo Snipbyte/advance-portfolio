@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale = 1.0,maximum-scale=1.0, user-scalable=no" /> 
+
+  <link rel="stylesheet" 
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <title>Personal Portfolio</title>
+</head>
+<body class="bg-dark">
+  <div id="home" class=" bg-dark d-md-flex">
+    <div class="p-3 h3 text-center d-md-flex flex-md-column align-items-center justify-content-center border-0 border-end text-mediumaquamarine" >
+      <div class="d-none d-md-block m-0 mb-5 text-white p-1 rounded bg-mediumaquamarine" >PS</div>
+      <a href="#" class="me-3 me-md-0">    <i class="mb-3  fa-solid fa-house text-mediumaquamarine"></i></a>
+      <a href="#" class="btnn me-3 me-md-0 about-toggle " >      <i class="mb-3 fa-solid fa-user text-mediumaquamarine" ></i>
+      </a>
+      <a href="#" class="skillsbtn me-3 me-md-0" >     <i class="mb-3 fas fa-pencil-ruler text-mediumaquamarine"></i>
+      </a>
+      <a href="#" class="me-3 me-md-0 servicesbtn">      <i class="text-mediumaquamarine mb-3 fa-solid fa-wrench"></i>
+      </a>
+      <a href="#" class="contactbtn me-3 me-md-0">      <i class="mb-3 fa-brands fa-whatsapp text-mediumaquamarine"></i>
+      </a>
+    </div>
+    <div id="main" class="d-md-flex w-100 h-100">
+      <div id="home-content" class="text-center text-white p-5">
+        <h1 class="mt-md-5 display-1" style=" font-weight: 900;font-family:sans-serif;">Pooja<span class="text-mediumaquamarine">Sharma</span></h1>
+        <section class="animation pb-3">
+          <div class="first border border-bottom-0 border-top-0 w-50 mx-auto"><div>Content Writer</div></div>
+          <div class="second border border-bottom-0 border-top-0 w-50 mx-auto"><div>Web Developer</div></div>
+          <div class="third border border-bottom-0 border-top-0 w-50 mx-auto"><div>Freelancer</div></div>
+        </section>
+        <p class=" d-block d-md-none"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+        <p class=" d-none d-md-block py-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <button class="btn text-white w-50 neon-glow-element" style="border-color: mediumaquamarine;">Hire Me</button>
+        <button class="btn text-white w-25 d-none d-md-inline particle-background" >Download CV</button>
+      </div>
+      <div id="home-img" class="">
+        <img class="h-100 object-fit-cover d-none d-md-block" src="https://img.freepik.com/free-photo/brunette-business-woman-with-wavy-long-hair-blue-eyes-stands-holding-notebook-hands_197531-343.jpg?size=626&ext=jpg&ga=GA1.2.413958406.1688898690&semt=sph">
+        <img class="h-100 w-100 d-md-none" src="https://img.freepik.com/free-photo/widely-smiling-businesswoman-working-laptop-sitting-cafe_197531-341.jpg?w=740&t=st=1690445558~exp=1690446158~hmac=1eacb11ce4da70af59362113560f7a9bdde188d0bf1541f65f4d5d1444a1fc12">
+      </div>
+      <div class="p-3 h3 d-md-flex flex-md-column align-items-center justify-content-center text-center border-0 border-start ">
+        <a href="https://snipbyte.com">
+       <i class="py-2 me-3 me-md-0 fa-brands fa-facebook text-mediumaquamarine"></i></a><a href="https://snipbyte.com">
+       <i class="py-2 me-3 me-md-0 fa-brands fa-instagram text-mediumaquamarine"></i></a><a href=" https://snipbyte.com">
+       <i class="py-2 me-3 me-md-0 fa-brands fa-twitter text-mediumaquamarine"></i>
+       </a><a href=" https://snipbyte.com">
+       <i class="py-2 me-3 me-md-0 fa-brands fa-google-plus text-mediumaquamarine"></i></a><a href=" https://snipbyte.com">
+       <i class="py-2 fa-brands fa-linkedin text-mediumaquamarine"></i></a>
+     </div>
+   </div>
+   <!-- About Section Starts -->
+   <section class="about-section bg-dark w-100 p-md-5
+   " id="about">
+   <button type="button" class="btn-close about-close bg-mediumaquamarine"></button>
+   <h2 class="text-white text-center d-md-none">About Me</h2>
+   <div id="aboutme" class="carousel slide bg-dark d-md-flex ">
+    <div class="carousel-indicators text-white">
+      <button type="button" data-bs-target="#carouaboutmeselExampleIndicatorsf" data-bs-slide-to="0" class="about active" aria-current="true" aria-label="Slide 1">Web Developer <i class="fa-solid fa-arrow-right"></i></i></button>
+
+      <button type="button" class="about" data-bs-target="#aboutme" data-bs-slide-to="1" aria-label="Slide 2">Content Writer <i class="fa-solid fa-arrow-right"></i></i></button>
+      <button type="button" class="about" data-bs-target="#aboutme" data-bs-slide-to="2" aria-label="Slide 3">Freelancer <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    <div class="carousel-inner ">
+      <div class="carousel-item active text-white w-75 ms-5 border rounded text-center">
+        <img class="p-0 mb-3" src="https://img.freepik.com/free-photo/widely-smiling-businesswoman-working-laptop-sitting-cafe_197531-341.jpg?w=740&t=st=1690445558~exp=1690446158~hmac=1eacb11ce4da70af59362113560f7a9bdde188d0bf1541f65f4d5d1444a1fc12">
+        <h4>I'M a Website <span class="text-mediumaquamarine">Developer</span></h4>
+        <p class="text-white">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+      </div>
+      <div class="carousel-item text-white w-75 ms-5 border rounded text-center">
+        <img class="p-0 mb-3" src="https://img.freepik.com/free-photo/two-colleagues-sitting-discuss-project-cafe_197531-345.jpg?w=740&t=st=1690445821~exp=1690446421~hmac=ae1d71d29cff7e81129e12a7a7b3f3705398780b76951b4506f34fa2f611347b">
+        <h4>I'M a Content <span class="text-mediumaquamarine">Writer</span></h4>
+        <p class="text-white">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+      </div>
+      <div class="carousel-item  text-white w-75 ms-5 border rounded text-center">
+       <img class="p-0 mb-3" src="https://img.freepik.com/free-photo/smiling-businesswoman-typing-laptop-sitting-cafe_197531-340.jpg?w=740&t=st=1690445054~exp=1690445654~hmac=b84f5b3a6e0b2edf157150dd81bf46efbbfb44ca2aeee59c0a8b35269913d271">
+       <h4>I'M a <span class="text-mediumaquamarine">Freelancer</span></h4>
+       <p class="text-white">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+    </div>
+  </div>
+</section>
+<!-- About Section End -->
+<!-- Skills Section Starts -->
+<section class="skills-section bg-dark w-100 p-md-5
+" id="skills">
+<button type="button" class="skills-close btn-close bg-mediumaquamarine"></button>
+<h2 class="text-white text-center py-5 d-md-none">Skills</h2>
+<div class="w-100 p-md-5 text-white" style="height:500px">
+  <canvas id="myChart2" class="h-100"></canvas>
+</div>
+</section>
+<!-- Skills Section Ends -->
+<!-- Services Section Starts -->
+<section class="services-section bg-dark w-100 p-3 p-md-5
+" id="services">
+<button type="button" class="btn-close services-close bg-mediumaquamarine"></button>
+<h2 class="text-white text-center d-md-none py-5">My Services</h2>
+
+<div  class="p-md-5 text-white"> 
+  <div class="row bg-transparent mb-3">
+    <div class="text-dark col-12 col-sm-3 col-xs-3 col-lg-3 col-md-3 border p-2 text-center fw-bolder h1 m-0 bg-mediumaquamarine" style="font-size:100px;">01</div>
+    <div class="col-12 col-sm-9 col-xs-9 col-lg-9 col-md-9 border p-2">
+      <h4>Freelancing <span class="text-mediumaquamarine">Service</span></h4>
+      <p class="text-white">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+    </div>
+  </div>
+  <div class="row bg-transparent mb-3">
+    <div class="col-12 col-sm-9 col-xs-9 col-lg-9 col-md-9 border p-2">
+      <h4>Content Writing <span class="text-mediumaquamarine">Service</span></h4>
+      <p class="text-white">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+    </div>
+    <div class="text-dark col-12 col-sm-3 col-xs-3 col-lg-3 col-md-3 border p-2 text-center fw-bolder h1 m-0 bg-mediumaquamarine" style="font-size:100px;">02</div>
+  </div>
+  <div class="row bg-transparent ">
+    <div class="text-dark col-12 col-sm-3 col-xs-3 col-lg-3 col-md-3 border p-2 text-center fw-bolder h1 m-0 bg-mediumaquamarine" style="font-size:100px;">03</div>
+    <div class="col-12 col-sm-9 col-xs-9 col-lg-9 col-md-9 border p-2">
+      <h4>Website Development <span class="text-mediumaquamarine" >Service</span></h4>
+      <p class=" text-white">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+    </div>
+  </div>
+</div>
+</section>
+<!-- Services Section Ends -->
+<!-- Contact Section Starts -->
+<section class="contact-section bg-dark w-100
+" id="contact">
+<button type="button" class="m-2 contact-close btn-close bg-mediumaquamarine"></button>
+<h2 class="text-white text-center d-md-none py-5">Contact Me</h2>
+<div class="d-md-flex p-md-3">
+  <div id="img " class="text-center" >
+    <img class="" src="https://img.freepik.com/free-photo/brunette-businesswoman-with-wavy-long-hair-blue-eyes-stands-holding-notebook-hands-smiles-widely_197531-346.jpg?w=360&t=st=1690372155~exp=1690372755~hmac=87169df0f280c725d50c7c49a630bc64e7ec15c19f7fe0401096be62a0505585" width="" height="">
+  </div>
+  <div class=" w-100 p-5">
+    <h1 class="mb-3 w-50 d-none d-md-block fw-bolder text-white">Do you really want some help ?</h1>
+    <h1 class="mb-3 w-100  d-md-none fw-bolder text-white">Do you really want some help ?</h1>
+    <form class="text-white" action="#" method="post">
+      <div class="d-flex justify-content-between">
+        <input class="border-0 border-bottom mb-5 bg-transparent shadow-0" style="width:40%" type="text"  placeholder="Your name" >
+        <input class="border-0 border-bottom mb-5 bg-transparent"  style="width:47%" type="email"  placeholder="Your email" >
+      </div>
+      <input class="border-0 border-bottom mb-5 mt-2 bg-transparent w-75" type="text"  placeholder="Subject" >
+
+      <textarea class="border-0 border-bottom mb-5 mt-2 w-100 mb-3 bg-transparent" cols="30" rows="1" placeholder="Message.." ></textarea>
+
+      <input class="btn w-50 text-dark bg-mediumaquamarine" type="button" value="Email" id="send_mail">
+
+    </form>
+  </div>
+</div>
+</section>
+<!-- Contact Section Ends -->
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
+<script type="text/javascript" src="assets/js/script.js"></script>
